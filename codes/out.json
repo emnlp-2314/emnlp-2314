@@ -1,0 +1,5275 @@
+{
+  "1": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "some military"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "armed forces"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "military",
+            "some military",
+            "military suspects",
+            "armed forces members"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "armed forces"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "2": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "terrorists"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "shining path"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "enrique lopez albujar trint"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "members of maoist terrorist organization shining path",
+            "criminals"
+          ],
+          [
+            "gerardo olivos silva"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "shining path"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "enrique lopez albujar trint"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 2,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 4,
+        "r_num": 3,
+        "r_den": 5,
+        "p": 0.75,
+        "r": 0.6,
+        "f1": 0.6666666666666665
+      }
+    }
+  },
+  "4": {
+    "pred": [
+      {
+        "incident_type": "kidnapping",
+        "PerpInd": [
+          [
+            "heavily armed men"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "hector oqueli colindres"
+          ],
+          [
+            "gilda flores"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "kidnapping",
+        "PerpInd": [
+          [
+            "heavily armed men"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "hector oqueli colindres"
+          ],
+          [
+            "gilda flores"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 4,
+        "r_num": 4,
+        "r_den": 4,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "10": {
+    "pred": [
+      {
+        "incident_type": "kidnapping",
+        "PerpInd": [
+          [
+            "anonymous sources"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "procastro eln"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "kidnapping",
+        "PerpInd": [
+          [
+            "members of manuel gustavo chacon sovereignty operation",
+            "manuel gustavo chacon sovereignty operation"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "eln",
+            "army of national liberation"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 3,
+        "r_num": 1,
+        "r_den": 3,
+        "p": 0.3333333333333333,
+        "r": 0.3333333333333333,
+        "f1": 0.3333333333333333
+      }
+    }
+  },
+  "18": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "cano limoncovenas pipeline"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "cano limoncovenas pipeline",
+            "pipeline"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "19": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "specialized group"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "four peruvians suspects",
+            "four peruvians",
+            "peruvians suspects",
+            "peruvians"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 2,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 0.5,
+        "r": 0.5,
+        "f1": 0.5
+      }
+    }
+  },
+  "21": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "alleged terrorists"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "maoist shining path"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "dolores hinostroza"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "four hooded individuals",
+            "hooded individuals"
+          ],
+          [
+            "alleged commando groups",
+            "alleged commando groups of maoist shining path",
+            "commando groups",
+            "commando groups of maoist shining path"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "shining path"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "dolores hinostroza"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 2,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 4,
+        "r_num": 2,
+        "r_den": 5,
+        "p": 0.5,
+        "r": 0.4,
+        "f1": 0.4444444444444445
+      }
+    }
+  },
+  "26": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "unidentified individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "danilo barillas"
+          ]
+        ],
+        "Weapon": [
+          [
+            "machinegun"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "unidentified individuals",
+            "group of unidentified individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "danilo barillas"
+          ]
+        ],
+        "Weapon": [
+          [
+            "machinegun"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 4,
+        "r_num": 4,
+        "r_den": 4,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "30": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "drug traffickers"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "carlos valencia"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "drug traffickers",
+            "colombian drug mafia",
+            "drug mafia"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "carlos valencia"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "31": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "jubiz hazvumb"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "medellin cartel"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "luis carlos galan"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "paramilitary groups",
+            "ultrarightwing paramilitary groups"
+          ],
+          [
+            "drugtrafficking mafias"
+          ],
+          [
+            "jubiz hazvumb"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "medellin cartel"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "luis carlos galan"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 0.3333333333333333,
+        "f1": 0.5
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 4,
+        "r_num": 4,
+        "r_den": 6,
+        "p": 1.0,
+        "r": 0.6666666666666666,
+        "f1": 0.8
+      }
+    }
+  },
+  "33": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "person of arab origin"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "luis carlos galan"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "person of arab origin"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "luis carlos galan"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "35": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "perpetrators"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": [
+          [
+            "two yellow renaults"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "installations of jose maria cordoba airport",
+            "airport installations"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 3,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 0.3333333333333333,
+        "r": 0.5,
+        "f1": 0.4
+      }
+    }
+  },
+  "40": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "gas station"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "people"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "dynamite"
+          ],
+          [
+            "car bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "two people",
+            "two people who were killed",
+            "people",
+            "people who were killed"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "gas station"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "car bomb"
+          ],
+          [
+            "60 kg of dynamite",
+            "dynamite"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 3,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 0.3333333333333333,
+        "r": 1.0,
+        "f1": 0.5
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 6,
+        "r_num": 4,
+        "r_den": 5,
+        "p": 0.6666666666666666,
+        "r": 0.8,
+        "f1": 0.7272727272727272
+      }
+    }
+  },
+  "43": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "offices of former president raul alfonsin"
+          ]
+        ],
+        "Victim": [
+          [
+            "beatriz iero"
+          ]
+        ],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "offices that former president raul alfonsin has in this city",
+            "ricardo rojas cultural center located at 132 ayacucho street where former president has offices for his political activities",
+            "ricardo rojas cultural center"
+          ],
+          [
+            "neighboring buildings",
+            "buildings"
+          ]
+        ],
+        "Victim": [
+          [
+            "beatriz iero"
+          ]
+        ],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 2,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 4,
+        "r_num": 3,
+        "r_den": 5,
+        "p": 0.75,
+        "r": 0.6,
+        "f1": 0.6666666666666665
+      }
+    }
+  },
+  "50": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "59": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "soldiers"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "salvadoran armed forces"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "ignacio ellacuria"
+          ],
+          [
+            "ignacio martin baro"
+          ],
+          [
+            "segundo montes"
+          ],
+          [
+            "amando lopez"
+          ],
+          [
+            "juan ramon moreno"
+          ],
+          [
+            "joaquin lopez y lopez"
+          ],
+          [
+            "julia ramos"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "salvadoran armed forces soldiers",
+            "armed forces soldiers",
+            "soldiers",
+            "large number of heavily armed soldiers",
+            "heavily armed soldiers"
+          ],
+          [
+            "top military and political figures in alfredo cristianis administration",
+            "top military and political figures"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "armed forces"
+          ],
+          [
+            "alfredo cristianis administration",
+            "cristianis government",
+            "government"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "ignacio ellacuria"
+          ],
+          [
+            "ignacio martin baro"
+          ],
+          [
+            "segundo montes"
+          ],
+          [
+            "amando lopez"
+          ],
+          [
+            "juan ramon moreno"
+          ],
+          [
+            "joaquin lopez y lopez"
+          ],
+          [
+            "julia ramos"
+          ],
+          [
+            "elva ramos"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 2,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 7,
+        "p_den": 7,
+        "r_num": 7,
+        "r_den": 8,
+        "p": 1.0,
+        "r": 0.875,
+        "f1": 0.9333333333333333
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 9,
+        "p_den": 10,
+        "r_num": 9,
+        "r_den": 13,
+        "p": 0.9,
+        "r": 0.6923076923076923,
+        "f1": 0.7826086956521738
+      }
+    }
+  },
+  "65": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "extreme right death squads"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "extreme right death squads",
+            "death squads"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 3,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 0.6666666666666666,
+        "r": 1.0,
+        "f1": 0.8
+      }
+    }
+  },
+  "72": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "headquarters of colombias secret police"
+          ],
+          [
+            "nearby offices of bogota transportation department"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "headquarters of colombias secret police",
+            "building of secret police",
+            "das",
+            "administrative department of security"
+          ],
+          [
+            "nearby offices of bogota transportation department",
+            "offices of bogota transportation department"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "powerful bomb hidden in truck",
+            "bomb hidden in truck"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 4,
+        "r_num": 3,
+        "r_den": 4,
+        "p": 0.75,
+        "r": 0.75,
+        "f1": 0.75
+      }
+    }
+  },
+  "73": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "terrorist criminals"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [
+          [
+            "salvadoran air force 02 airplane"
+          ]
+        ],
+        "Victim": [
+          [
+            "febe elizabeth velazquez"
+          ]
+        ],
+        "Weapon": [
+          [
+            "dynamite"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "fenastras",
+            "salvadoran workers national union federation"
+          ]
+        ],
+        "Victim": [
+          [
+            "febe elizabeth velazquez"
+          ],
+          [
+            "fenastras"
+          ]
+        ],
+        "Weapon": [
+          [
+            "dynamite"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 6,
+        "r_num": 3,
+        "r_den": 5,
+        "p": 0.5,
+        "r": 0.6,
+        "f1": 0.5454545454545454
+      }
+    }
+  },
+  "77": {
+    "pred": [
+      {
+        "incident_type": "kidnapping",
+        "PerpInd": [
+          [
+            "chileans"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "mir"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "abilio diniz"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "kidnapping",
+        "PerpInd": [
+          [
+            "five chileans"
+          ],
+          [
+            "two canadians"
+          ],
+          [
+            "two argentines"
+          ],
+          [
+            "one brazilian"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "mir",
+            "movement of revolutionary left"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "abilio diniz"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 4,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 4,
+        "r_num": 3,
+        "r_den": 7,
+        "p": 0.75,
+        "r": 0.42857142857142855,
+        "f1": 0.5454545454545454
+      }
+    }
+  },
+  "81": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "jaime pardo leal"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "vladimir escobar"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 2,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 0.5,
+        "r": 0.5,
+        "f1": 0.5
+      }
+    }
+  },
+  "82": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "us"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "hector oqueli"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "government",
+            "cristianis government"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "hector oqueli"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 3,
+        "r_num": 2,
+        "r_den": 3,
+        "p": 0.6666666666666666,
+        "r": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      }
+    }
+  },
+  "84": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "soldiers"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "army"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "eight soldiers",
+            "soldiers"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "army"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "90": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "two 23 to 25yearold individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "gustavo leigh guzman"
+          ],
+          [
+            "enrique ruiz"
+          ]
+        ],
+        "Weapon": [
+          [
+            "9 mm semiautomatic pistols"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "two 23 to 25yearold individuals",
+            "individuals",
+            "two individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "gustavo leigh guzman"
+          ],
+          [
+            "enrique ruiz"
+          ]
+        ],
+        "Weapon": [
+          [
+            "9 mm semiautomatic pistols",
+            "semiautomatic pistols",
+            "pistols"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 5,
+        "p_den": 5,
+        "r_num": 5,
+        "r_den": 5,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "92": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "bernardo jaramillo"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "bernardo jaramillo"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "95": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "carlos pizarro leongomez"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "carlos pizarro leongomez"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "97": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "soldiers"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "group of soldiers",
+            "soldiers"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 2,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 0.5,
+        "r": 0.5,
+        "f1": 0.5
+      }
+    }
+  },
+  "100": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "unidentified individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "chapel of church of jesus christ of latterday saints"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "unidentified individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "mormon church",
+            "church",
+            "chapel of church of jesus christ of latterday saints located at no 3856 gomez carreno street",
+            "chapel of church of jesus christ of latterday saints",
+            "chapel",
+            "church of jesus christ of latterday saints"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "bomb"
+          ],
+          [
+            "50 grams of anfo",
+            "anfo",
+            "ammonium nitratefuel oil blasting agents"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 4,
+        "r_num": 4,
+        "r_den": 5,
+        "p": 1.0,
+        "r": 0.8,
+        "f1": 0.888888888888889
+      }
+    }
+  },
+  "104": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "rinaldo golcher"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "death squads"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "aminta platero"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 1,
+        "p_den": 4,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 0.25,
+        "r": 1.0,
+        "f1": 0.4
+      }
+    }
+  },
+  "106": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "guatemalan rightist sectors"
+          ]
+        ],
+        "Target": [
+          [
+            "regional offices"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "two fragmentation grenades"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "guatemalan rightist sectors",
+            "rightist sectors"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "aeronicas regional offices"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "fragmentation grenades",
+            "grenades"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 0,
+        "p_den": 4,
+        "r_num": 0,
+        "r_den": 4,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      }
+    }
+  },
+  "109": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "unidentified individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "national vanguard offices"
+          ],
+          [
+            "houses"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "unidentified individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "national vanguard offices"
+          ],
+          [
+            "neighboring houses",
+            "houses"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 5,
+        "p_den": 5,
+        "r_num": 5,
+        "r_den": 5,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "112": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "former captain alvaro sanabria"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "oscar arnulfo romero"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "former captain alvaro sanabria",
+            "captain alvaro sanabria"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "oscar arnulfo romero"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "115": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "urban guerrillas"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [
+          [
+            "two government vehicles"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "two powerful bombs"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "fmln urban guerrillas",
+            "urban guerrillas"
+          ],
+          [
+            "fmln general command"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln",
+            "fmln general command"
+          ]
+        ],
+        "Target": [
+          [
+            "government vehicles license plates 6906 and 6895 used by rural basic health plan section of health ministry",
+            "government vehicles license plates 6906 and 6895",
+            "government vehicles",
+            "vehicles",
+            "cars"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "two powerful bombs",
+            "powerful bombs",
+            "bombs"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 5,
+        "r_num": 4,
+        "r_den": 6,
+        "p": 0.8,
+        "r": 0.6666666666666666,
+        "f1": 0.7272727272727272
+      }
+    }
+  },
+  "121": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "20 terrorists"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "albolones peruanos"
+          ]
+        ],
+        "Target": [
+          [
+            "machinery"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "submachineguns"
+          ],
+          [
+            "molotov cocktails"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "group of terrorists",
+            "terrorists",
+            "approximately 20 terrorists"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "machinery belonging to albolones peruanos inc",
+            "machinery"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "molotov cocktails"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 2,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 0.5,
+        "r": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 6,
+        "r_num": 3,
+        "r_den": 4,
+        "p": 0.5,
+        "r": 0.75,
+        "f1": 0.6
+      }
+    }
+  },
+  "124": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [
+          [
+            "antel installations"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 3,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 0.6666666666666666,
+        "r": 1.0,
+        "f1": 0.8
+      }
+    }
+  },
+  "130": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "multipurpose pipeline"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "terrorist"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "eln"
+          ]
+        ],
+        "Target": [
+          [
+            "section of multipurpose pipeline running from barrancabermeja to bucaramanga",
+            "section of multipurpose pipeline",
+            "multipurpose pipeline running from barrancabermeja to bucaramanga",
+            "multipurpose pipeline",
+            "pipeline",
+            "bucaramanga barrancabermeja multipurpose pipeline",
+            "30meter section of pipeline",
+            "oil pipeline",
+            "section of multipurpose pipeline between barrancabermeja and bucaramanga"
+          ],
+          [
+            "100meter section of central highway",
+            "section of central highway",
+            "central highway",
+            "highway"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 5,
+        "p": 1.0,
+        "r": 0.4,
+        "f1": 0.5714285714285715
+      }
+    }
+  },
+  "131": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "headquarters of shoe industry workers union"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "homemade bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "headquarters of shoe industry workers union"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "small homemade bomb",
+            "homemade bomb",
+            "bomb"
+          ],
+          [
+            "black gunpowder",
+            "gunpowder"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 4,
+        "p": 1.0,
+        "r": 0.75,
+        "f1": 0.8571428571428571
+      }
+    }
+  },
+  "144": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "guerrillas"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "epl"
+          ]
+        ],
+        "Target": [
+          [
+            "bridge"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "guerrillas"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "epl",
+            "popular liberation army"
+          ]
+        ],
+        "Target": [
+          [
+            "bridge"
+          ],
+          [
+            "public bus",
+            "bus"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 4,
+        "r_num": 4,
+        "r_den": 5,
+        "p": 1.0,
+        "r": 0.8,
+        "f1": 0.888888888888889
+      }
+    }
+  },
+  "150": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "four masked individuals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "carlos soto sedice"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "four masked individuals",
+            "masked individuals",
+            "individuals",
+            "criminals"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "carlos soto sedice"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "154": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "members of bomb squad"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "alan garcia"
+          ]
+        ],
+        "Weapon": [
+          [
+            "powerful bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "andres avelino caceres park"
+          ]
+        ],
+        "Victim": [
+          [
+            "alan garcia"
+          ]
+        ],
+        "Weapon": [
+          [
+            "bomb",
+            "powerful bomb"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 4,
+        "r_num": 3,
+        "r_den": 4,
+        "p": 0.75,
+        "r": 0.75,
+        "f1": 0.75
+      }
+    }
+  },
+  "155": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [
+          [
+            "venezuelan army"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "military authorities",
+            "venezuelan military authorities"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "venezuelan army",
+            "army"
+          ]
+        ],
+        "Target": [],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 2,
+        "r_num": 2,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 0.6666666666666666,
+        "f1": 0.8
+      }
+    }
+  },
+  "158": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "terrorists"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "power towers"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "terrorists"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "power towers of national energy network",
+            "power towers"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "162": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "guerrilla"
+          ],
+          [
+            "soldiers"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [
+          [
+            "antel office"
+          ],
+          [
+            "court offices"
+          ],
+          [
+            "community center"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "large group of rebels",
+            "group of rebels",
+            "rebels"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [
+          [
+            "court offices"
+          ],
+          [
+            "community center"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 2,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Target": {
+        "p_num": 2,
+        "p_den": 3,
+        "r_num": 2,
+        "r_den": 2,
+        "p": 0.6666666666666666,
+        "r": 1.0,
+        "f1": 0.8
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 4,
+        "p_den": 7,
+        "r_num": 4,
+        "r_den": 5,
+        "p": 0.5714285714285714,
+        "r": 0.8,
+        "f1": 0.6666666666666666
+      }
+    }
+  },
+  "165": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "murderers"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "luz leon"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "luz leon"
+          ],
+          [
+            "parmenides cuenca"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 2,
+        "p": 1.0,
+        "r": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 3,
+        "r_num": 2,
+        "r_den": 3,
+        "p": 0.6666666666666666,
+        "r": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      }
+    }
+  },
+  "182": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "mauricio vera barrios"
+          ]
+        ],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "mauricio vera barrios"
+          ]
+        ],
+        "Weapon": [
+          [
+            "bomb"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "189": {
+    "pred": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "urban guerrillas"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "fmln"
+          ]
+        ],
+        "Target": [],
+        "Victim": [
+          [
+            "rosa imelda gonzalez medrano"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "attack",
+        "PerpInd": [
+          [
+            "urban guerrillas",
+            "urban guerrillas operating in santa ana"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [
+          [
+            "rosa imelda gonzalez medrano"
+          ]
+        ],
+        "Weapon": []
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Weapon": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 4,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 0.75,
+        "r": 1.0,
+        "f1": 0.8571428571428571
+      }
+    }
+  },
+  "194": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "guerrillas"
+          ]
+        ],
+        "PerpOrg": [
+          [
+            "feliciano ama front"
+          ]
+        ],
+        "Target": [
+          [
+            "garrisons"
+          ],
+          [
+            "national guard"
+          ],
+          [
+            "lempa river hydroelectric executive commission"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "explosives"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [
+          [
+            "rebels",
+            "another group"
+          ]
+        ],
+        "PerpOrg": [],
+        "Target": [],
+        "Victim": [],
+        "Weapon": [
+          [
+            "explosives"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 1,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 1,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 0,
+        "p_den": 3,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 2,
+        "p_den": 7,
+        "r_num": 2,
+        "r_den": 3,
+        "p": 0.2857142857142857,
+        "r": 0.6666666666666666,
+        "f1": 0.4
+      }
+    }
+  },
+  "196": {
+    "pred": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "checkpoint"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "bombs"
+          ]
+        ]
+      }
+    ],
+    "gold": [
+      {
+        "incident_type": "bombing",
+        "PerpInd": [],
+        "PerpOrg": [],
+        "Target": [
+          [
+            "checkpoint"
+          ]
+        ],
+        "Victim": [],
+        "Weapon": [
+          [
+            "three bombs",
+            "bombs"
+          ]
+        ]
+      }
+    ],
+    "score": {
+      "incident_type": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "PerpInd": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "PerpOrg": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Target": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "Victim": {
+        "p_num": 0,
+        "p_den": 0,
+        "r_num": 0,
+        "r_den": 0,
+        "p": 0,
+        "r": 0,
+        "f1": 0
+      },
+      "Weapon": {
+        "p_num": 1,
+        "p_den": 1,
+        "r_num": 1,
+        "r_den": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      },
+      "micro_avg": {
+        "p_num": 3,
+        "p_den": 3,
+        "r_num": 3,
+        "r_den": 3,
+        "p": 1.0,
+        "r": 1.0,
+        "f1": 1.0
+      }
+    }
+  }
+}
