@@ -1,6 +1,6 @@
 
 
-### The latest version of the paper 2314.
+### The latest version of paper 2314.
 
 Meanwhile, we have submitted the code of our paper. Our code is modified based on Text2Event and Transformers.
 
